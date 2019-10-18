@@ -1,7 +1,7 @@
 import XCTest
 
-import PrieviewExperimentsTests
+import UIPreviewTests
 
 var tests = [XCTestCaseEntry]()
-tests += PrieviewExperimentsTests.allTests()
+tests += UIPreviewTests.allTests()
 XCTMain(tests)
