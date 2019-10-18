@@ -12,7 +12,7 @@ import SwiftUI
 public struct UIPreview<View: UIView>: UIViewRepresentable {
     let view: View
 
-    init(_ builder: @escaping () -> View) {
+    public init(_ builder: @escaping () -> View) {
         view = builder()
     }
 
